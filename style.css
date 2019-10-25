@@ -24,12 +24,27 @@ h2 {
     background: white;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
     text-align: center;
+    margin-right: 3rem;
 
     transition: 0.5s ease;
 }
-.card-img {
-    grid-area: img;
+.bgImg1 {
     background: url("img/flood-warning.png");
+    grid-area: img;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.bgImg2 {
+    background: url("img/blog-space.png");
+    grid-area: img;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.bgImg3 {
+    background: url("img/laboratory-shop.png");
+    grid-area: img;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -68,11 +83,6 @@ h2 {
     flex-direction: column;
     padding: 10px;
     color: white;
-}
-.card-icon .type {
-    font-size: 9px;
-    font-weight: 300;
-    text-transform: uppercase;
 }
 .card-stats .value {
     font-size: 22px;
