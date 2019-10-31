@@ -60,7 +60,7 @@ h2 {
 }
 .card-text p {
     color: grey;
-    font-size; 15px;
+    font-size: 15px;
     font-weight: 300;
 }
 .card-text h2 {
@@ -78,11 +78,14 @@ h2 {
 }
 .card-icon .icon {
     display: flex;
-    align-text: center;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
     padding: 10px;
     color: white;
+}
+.icon i:hover {
+    cursor: pointer;
 }
 .card-stats .value {
     font-size: 22px;
@@ -91,7 +94,7 @@ h2 {
 .card:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
-
+}
 
 
 
